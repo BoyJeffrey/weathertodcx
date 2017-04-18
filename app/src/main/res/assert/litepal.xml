@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value = "weather_to_dcx" />
+    <version value= "1"/>
+
+    <list>
+        <mapping class="com.weathertodcx.android.db.Province"/>
+        <mapping class="com.weathertodcx.android.db.City"/>
+        <mapping class="com.weathertodcx.android.db.Country"/>
+    </list>
+</litepal>
