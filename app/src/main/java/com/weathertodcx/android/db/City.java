@@ -1,13 +1,13 @@
 package com.weathertodcx.android.db;
 
-import org.litepal.crud.DataSupport;
+import com.weathertodcx.android.db.base.GeoDistributionData;
 
 /**
  * 城市
  * Created by Administrator on 2017/4/18.
  */
 
-public class City extends DataSupport {
+public class City extends GeoDistributionData {
     private int id;
     private String cityName;
     private int cityCode;

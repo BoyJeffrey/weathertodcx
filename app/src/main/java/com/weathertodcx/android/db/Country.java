@@ -1,13 +1,13 @@
 package com.weathertodcx.android.db;
 
-import org.litepal.crud.DataSupport;
+import com.weathertodcx.android.db.base.GeoDistributionData;
 
 /**
  * 县
  * Created by Administrator on 2017/4/18.
  */
 
-public class Country extends DataSupport {
+public class Country extends GeoDistributionData {
     private int id;
     private String countryName;
     private String weatherId;

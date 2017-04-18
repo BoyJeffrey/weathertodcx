@@ -1,13 +1,13 @@
 package com.weathertodcx.android.db;
 
-import org.litepal.crud.DataSupport;
+import com.weathertodcx.android.db.base.GeoDistributionData;
 
 /**
  * 省份
  * Created by Administrator on 2017/4/18.
  */
 
-public class Province extends DataSupport {
+public class Province extends GeoDistributionData {
 
     private int id;
 
